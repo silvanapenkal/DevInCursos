@@ -1,19 +1,15 @@
 import {Header} from "./components/Header";
-import CourseWrapper from "./components/CourseWrapper";
-import {Footer} from "./components/Footer";
-
 import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Header />
-      <CourseWrapper>
-        <HomePage />
-      </CourseWrapper>
-      <Footer />
-    </>
-  );
+    <div className="App">
+      <Header/>
+      <HomePage/>
+      <Footer/>
+    </div>
+  )
 }
 
 export default App;
