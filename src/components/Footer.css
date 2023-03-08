@@ -6,4 +6,6 @@
     height: 50px;
     background-color: #EAEAEA;
     width: 100vw;
+    position: fixed;
+    bottom: 0;
 }

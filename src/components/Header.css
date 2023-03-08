@@ -7,7 +7,7 @@
     width: 100%;
     padding: 0px 0px 0px 0px;
     gap: 16px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
 }
