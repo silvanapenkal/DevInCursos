@@ -1,0 +1,25 @@
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 98px;
+    background-color: #EAEAEA;
+    width: 100vw;
+    padding: 0px 0px 0px 20px;
+    gap: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+img {
+    height: 50px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0171AF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
