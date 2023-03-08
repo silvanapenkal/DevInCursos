@@ -1,13 +1,10 @@
 .footerDiv {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     height: 50px;
     background-color: #EAEAEA;
     width: 100vw;
-    padding: 0px 0px 0px 0px;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+
 }

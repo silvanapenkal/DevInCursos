@@ -1,13 +1,16 @@
-import './App.css'
-import { Header } from './Header'
-import { Footer } from './Footer'
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import PageWrapper from "./components/Wrapper"
 
 function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Footer/>
+      <PageWrapper>
+        <Header/>
+        <Filter/>
+        <Footer/>
+      </PageWrapper>  
     </div>
   )
 }

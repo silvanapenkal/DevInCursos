@@ -29,4 +29,4 @@ CourseCard.propTypes = {
   imageUrl: PropTypes.string,
 };
 
-export default CourseCard;
+export default Card;
