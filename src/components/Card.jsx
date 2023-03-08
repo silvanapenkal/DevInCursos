@@ -12,9 +12,9 @@ function CourseCard({ imageUrl, name, category, description, duration }) {
       </div>
       <div className="courseCardDuration">
         <img src={clockImg} alt="Ícone de relógio" />
-        {/* <p>{duration}h</p>
-        <p>{category}h</p>
-        <p>{description}h</p> */}
+          <p>{duration}h</p>
+          <p>{category}h</p>
+          <p>{description}h</p>
       </div>
       <button className="courseCardActionButton">Ver detalhes</button>
     </div>
