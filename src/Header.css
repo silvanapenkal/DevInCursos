@@ -4,8 +4,8 @@
     align-items: center;
     height: 98px;
     background-color: #EAEAEA;
-    width: 100vw;
-    padding: 0px 0px 0px 20px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
     gap: 16px;
     position: absolute;
     top: 0px;
@@ -17,7 +17,7 @@ img {
 }
 
 h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     color: #0171AF;
     font-size: 36px;
     font-weight: 700;
