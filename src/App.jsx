@@ -1,18 +1,19 @@
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import PageWrapper from "./components/Wrapper"
+import Navbar from "./components/Navbar";
+import PageWrapper from "./components/CourseWrapper";
+import Footer from "./components/Footer";
+
+import HomePage from "./pages/HomePage";
 
 function App() {
-
   return (
-    <div className="App">
+    <>
+      <Navbar />
       <PageWrapper>
-        <Header/>
-        <Filter/>
-        <Footer/>
-      </PageWrapper>  
-    </div>
-  )
+        <HomePage />
+      </PageWrapper>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
