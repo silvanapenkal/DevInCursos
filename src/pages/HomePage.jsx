@@ -1,6 +1,6 @@
 import CourseFilter from "../components/CourseFilter";
 import CourseList from "../components/CourseList";
-import "./Home.css";
+import "./HomePage.css";
 
 import reactJsImg from "../assets/reactjs.png";
 import reactTsImg from "../assets/reactts.png";

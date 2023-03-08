@@ -1,16 +1,16 @@
-import Navbar from "./components/Navbar";
-import PageWrapper from "./components/CourseWrapper";
-import Footer from "./components/Footer";
+import {Header} from "./components/Header";
+import CourseWrapper from "./components/CourseWrapper";
+import {Footer} from "./components/Footer";
 
 import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <PageWrapper>
+      <Header />
+      <CourseWrapper>
         <HomePage />
-      </PageWrapper>
+      </CourseWrapper>
       <Footer />
     </>
   );
