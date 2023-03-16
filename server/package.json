@@ -1,0 +1,26 @@
+{
+  "name": "m02-projeto-integrado-react",
+  "version": "1.0.0",
+  "description": "projeto React Devinhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch data/db.json --port=8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvanapenkal/m02-projeto-integrado-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvanapenkal/m02-projeto-integrado-react/issues"
+  },
+  "homepage": "https://github.com/silvanapenkal/m02-projeto-integrado-react#readme",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+  
+
+
+}
