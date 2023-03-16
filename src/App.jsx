@@ -1,9 +1,11 @@
 import {Header} from "./components/Header/Header";
 import HomePage from "./pages/HomePage/HomePage";
+import CourseDetailsPage from "./pages/CourseDetailsPage/CourseDetailsPage";
 import Footer from "./components/Footer/Footer";
 import DevinCourseContext from "./DevinCourseContext";
 import { useState } from "react";
 import {useUserInfo} from "./DevinCourseContext";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -14,7 +16,10 @@ function App() {
     <DevinCourseContext.Provider value = {[name, setName, isAdmin, setAdmin]}>
       <div className="App">
         <Header/>
-        <HomePage/>
+        <Routes>
+          <Route path="/home" element={<HomePage/>} />
+          <Route path="/teste" element={<CourseDetailsPage/>} />
+        </Routes>
         <Footer/>
       </div>
     </DevinCourseContext.Provider>
