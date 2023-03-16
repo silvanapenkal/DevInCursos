@@ -1,11 +1,11 @@
-import CourseFilter from "../components/CourseFilter";
-import CourseList from "../components/CourseList";
+import CourseFilter from "../../components/CourseFilter/CourseFilter";
+import CourseList from "../../components/CourseList/CourseList";
 import "./HomePage.css";
 
-import reactJsImg from "../assets/reactjs.png";
-import reactTsImg from "../assets/reactts.png";
-import reactRouterImg from "../assets/reactrouter.png";
-import contextApiImg from "../assets/contextapi.png";
+import reactJsImg from "../../assets/reactjs.png";
+import reactTsImg from "../../assets/reactts.png";
+import reactRouterImg from "../../assets/reactrouter.png";
+import contextApiImg from "../../assets/contextapi.png";
 
 const listaDeCursos = [
   {

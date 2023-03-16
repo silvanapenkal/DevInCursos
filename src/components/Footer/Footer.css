@@ -6,6 +6,6 @@
     height: 50px;
     background-color: #EAEAEA;
     width: 100vw;
-    position: sticky;
+    position: fixed;
     bottom: 0;
 }

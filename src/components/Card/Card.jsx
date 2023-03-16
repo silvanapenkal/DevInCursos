@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import "./Card.css";
 
-import clockImg from "../assets/clock.png";
+import clockImg from "../../assets/clock.png";
 
 function CourseCard({ imageUrl, name, category, description, duration }) {
   return (
