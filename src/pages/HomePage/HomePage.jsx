@@ -6,6 +6,7 @@ import reactJsImg from "../../assets/reactjs.png";
 import reactTsImg from "../../assets/reactts.png";
 import reactRouterImg from "../../assets/reactrouter.png";
 import contextApiImg from "../../assets/contextapi.png";
+import { useDevinCourseContext } from "../../DevinCourseContext";
 
 const listaDeCursos = [
   {
@@ -75,8 +76,11 @@ const listaDeCursos = [
 ];
 
 function HomePage() {
+  const userInfo = useDevinCourseContext();
+  const isAdmin = (userInfo[2].isAdmin);
   return (
     <div className="homePageContainer">
+      {isAdmin && <button>Cadastrar Curso</button>}
       <CourseFilter />
       <CourseList list={listaDeCursos} />
     </div>

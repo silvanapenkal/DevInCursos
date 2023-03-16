@@ -8,10 +8,10 @@ export function useDevinCourseContext() {
   return useContext(DevinCourseContext);
 }
 
-// export function useUserInfo() {
-//   const [value] = useDevinCourseContext();
-//   return value;
-// }
+export function useUserInfo() {
+  const [value] = useDevinCourseContext();
+  return value;
+}
 
 // export function useSetUserInfo() {
 //   const [value, setValue] = useDevinCourseContext();
