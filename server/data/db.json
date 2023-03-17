@@ -2,7 +2,7 @@
     "courses": [
         {
             "id": 1,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactjs.png",
             "name": "React Js",
             "category": "front-end",
             "description": "Curso sobre React Js",
@@ -10,7 +10,7 @@
           },
           {
             "id": 635,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactjs.png",
             "name": "React Js",
             "category": "front-end",
             "description": "Curso sobre React Js",
@@ -18,7 +18,7 @@
           },
           {
             "id": 873,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactts.png",
             "name": "React com TS",
             "category": "front-end",
             "description": "Curso sobre React com TS",
@@ -26,7 +26,7 @@
           },
           {
             "id": 935,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactrouter.png",
             "name": "React Router",
             "category": "front-end",
             "description": "Curso sobre React Router",
@@ -34,7 +34,7 @@
           },
           {
             "id": 333,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/contextapi.png",
             "name": "Context API",
             "category": "front-end",
             "description": "Curso sobre Context API",
@@ -42,7 +42,7 @@
           },
           {
             "id": 844,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactjs.png",
             "name": "React Js",
             "category": "front-end",
             "description": "Curso sobre React Js",
@@ -50,7 +50,7 @@
           },
           {
             "id": 287,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactts.png",
             "name": "React com TS",
             "category": "front-end",
             "description": "Curso sobre React com TS",
@@ -58,7 +58,7 @@
           },
           {
             "id": 118,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/reactrouter.png",
             "name": "React Router",
             "category": "front-end",
             "description": "Curso sobre React Router",
@@ -66,7 +66,7 @@
           },
           {
             "id": 589,
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+            "imageUrl": "/src/assets/contextapi.png",
             "name": "Context API",
             "category": "front-end",
             "description": "Curso sobre Context API",
