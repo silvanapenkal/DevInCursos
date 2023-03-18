@@ -10,10 +10,10 @@ export const Header = () => {
     return (
     <header id="header">
         <div className="headerDiv">
-            <div id="logo">
+            <Link to="/home" className="navbarLogoBox" id="logo">
                 <img src="/src/assets/logo.svg"></img>
                 <h1>DevInCursos</h1>
-            </div>
+            </Link>
             <h2>{name?? "Sem nome"}</h2>       
         </div>
     </header>
