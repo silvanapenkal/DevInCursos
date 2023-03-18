@@ -4,21 +4,26 @@ import CourseDetailsPage from "./pages/CourseDetailsPage/CourseDetailsPage";
 import Footer from "./components/Footer/Footer";
 import DevinCourseContext from "./DevinCourseContext";
 import { useState } from "react";
-import {useUserInfo} from "./DevinCourseContext";
 import { Routes, Route } from "react-router-dom";
+import './index.css'
 
 function App() {
 
-  const [name, setName] = useState({ name: "Silvana" });
-  const [isAdmin, setAdmin] = useState({ isAdmin: true });
-  const teste = useUserInfo();
+  const [user, setUser] = useState ({
+    user:{
+      name: "Silvana",
+      isAdmin: true
+    }
+  })
+
   return (
-    <DevinCourseContext.Provider value = {[name, setName, isAdmin, setAdmin]}>
+    <DevinCourseContext.Provider value = {[user, setUser]}>
       <div className="App">
         <Header/>
         <Routes>
           <Route path="/home" element={<HomePage/>} />
           <Route path="/teste" element={<CourseDetailsPage/>} />
+          <Route path="*" element={<div id="margem">página não encontrada</div>} />
         </Routes>
         <Footer/>
       </div>

@@ -8,10 +8,11 @@ export function useDevinCourseContext() {
   return useContext(DevinCourseContext);
 }
 
-export function useUserInfo() {
-  const [value] = useDevinCourseContext();
-  return value;
+export function useUserName() {
+  const [user, setUser] = useDevinCourseContext();
+  return user?.user?.name;
 }
+
 
 // export function useSetUserInfo() {
 //   const [value, setValue] = useDevinCourseContext();

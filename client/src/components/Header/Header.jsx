@@ -1,14 +1,15 @@
 import "./Header.css";
-import { useDevinCourseContext } from "../../DevinCourseContext";
+import { useUserName } from "../../DevinCourseContext";
 
 export const Header = () => {
-    const userInfo = useDevinCourseContext();
+    const name = useUserName();
+    console.log(name);
     return (
     <header>
         <div className="headerDiv">
             <img src="/src/assets/logo.svg"></img>
             <h1>DevInCursos</h1>
-            <h2>{userInfo[0]?.name ?? "Sem nome"}</h2>
+            <h2>{name?? "Sem nome"}</h2>
         </div>
     </header>
     )
