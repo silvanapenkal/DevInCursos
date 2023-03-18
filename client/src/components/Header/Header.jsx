@@ -1,15 +1,20 @@
 import "./Header.css";
-import { useUserName } from "../../DevinCourseContext";
+import { Link, useNavigate } from "react-router-dom";
+import { useUserName } from "../../hooks/useDevinCourseContext";
 
 export const Header = () => {
+    const navigate = useNavigate();
+
     const name = useUserName();
-    console.log(name);
+    
     return (
-    <header>
+    <header id="header">
         <div className="headerDiv">
-            <img src="/src/assets/logo.svg"></img>
-            <h1>DevInCursos</h1>
-            <h2>{name?? "Sem nome"}</h2>
+            <div id="logo">
+                <img src="/src/assets/logo.svg"></img>
+                <h1>DevInCursos</h1>
+            </div>
+            <h2>{name?? "Sem nome"}</h2>       
         </div>
     </header>
     )

@@ -8,11 +8,12 @@ function CourseList({ list }) {
       {list.map((course) => (
         <li key={course.id}>
           <Card
-            imageUrl={course.imageUrl}
-            name={course.name}
-            category={course.category}
-            description={course.description}
-            duration={course.duration}
+            id= {course?.id}
+            imageUrl={course?.imageUrl}
+            name={course?.name}
+            category={course?.category}
+            description={course?.description}
+            duration={course?.duration}
           />
         </li>
       ))}

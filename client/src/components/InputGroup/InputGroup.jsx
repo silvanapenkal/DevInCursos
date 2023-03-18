@@ -4,7 +4,7 @@ import './InputGroup.css';
 
 function InputGroup({ labelText, helperText, ...props }) {
   return (
-    <div className='container'>
+    <div id='container'>
       {labelText && (
         <label htmlFor='input' className='label'>
           {labelText}

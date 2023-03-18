@@ -1,9 +1,15 @@
 import PropTypes from "prop-types";
 import "./Card.css";
-
+import { useNavigate } from 'react-router-dom';
 import clockImg from "../../assets/clock.png";
 
-function CourseCard({ imageUrl, name, category, description, duration }) {
+function CourseCard({ id, imageUrl, name, category, description, duration }) {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate(`/course/${id}`);
+  }
+
   return (
     <div className="cardContainer">
       <div className="cardHeader">
@@ -16,12 +22,13 @@ function CourseCard({ imageUrl, name, category, description, duration }) {
           <p>{category}h</p>
           <p>{description}h</p>
       </div>
-      <button className="courseCardActionButton">Ver detalhes</button>
+      <button className="courseCardActionButton" onClick={handleNavigate}>Ver detalhes</button>
     </div>
   );
 }
 
 CourseCard.propTypes = {
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

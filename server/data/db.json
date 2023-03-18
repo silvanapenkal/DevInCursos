@@ -1,5 +1,17 @@
 {
-    "courses": [
+  "users": [
+    {
+      "login":"Silvana",
+      "senha": "123",
+      "isAdmin": true
+    }
+    {
+      "login":"sapato",
+      "senha": "123",
+      "isAdmin": false
+    }
+  ],
+  "courses": [
         {
             "id": 1,
             "imageUrl": "/src/assets/reactjs.png",
