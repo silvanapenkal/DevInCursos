@@ -12,9 +12,9 @@ export const CourseDetailsPage = () => {
     return (
         <div className="detalhes">
             <h2>Detalhes do Curso</h2>
-            <img src={course?.imageUrl}/>
+            <img src={course?.imageUrl} alt={course?.name}/>
             <p>{course?.name}</p>
-            <p>{course?.duration}</p>
+            <p>{course?.duration}h</p>
             <p>{course?.description}</p>
             <p>{course?.category}</p>
         </div>

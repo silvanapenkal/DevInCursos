@@ -19,8 +19,8 @@ function CourseCard({ id, imageUrl, name, category, description, duration }) {
       <div className="courseCardDuration">
         <img src={clockImg} alt="Ícone de relógio" />
           <p>{duration}h</p>
-          <p>{category}h</p>
-          <p>{description}h</p>
+          <p>{category}</p>
+          <p>{description}</p>
       </div>
       <button className="courseCardActionButton" onClick={handleNavigate}>Ver detalhes</button>
     </div>

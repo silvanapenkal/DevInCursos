@@ -9,6 +9,20 @@ export function useDevinCourseContext() {
 }
 
 export function useUserName() {
-  const [user, setUser] = useDevinCourseContext();
+  const [user] = useDevinCourseContext();
   return user?.user?.name;
+}
+
+export function useUserIsAdmin() {
+  const [user] = useDevinCourseContext();
+  return user?.user?.isAdmin;
+}
+
+export function useSetUserInfo(){
+  const [, setState]= useDevinCourseContext();
+  return (userInfo) => {
+    setState((currentState) => {
+      return { ...currentState, user: userInfo };
+    });
+  };
 }

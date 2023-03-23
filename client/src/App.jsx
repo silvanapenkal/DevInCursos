@@ -22,14 +22,14 @@ function App() {
     <DevinCourseContext.Provider value = {[user, setUser]}>
       <div className="App">
         <Header/>
-        {/* <PageWrapper> */}
+        <PageWrapper>
           <Routes>
             <Route path="/home" element={<HomePage/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/course/:id" element={<CourseDetailsPage/>} />
             <Route path="*" element={<div id="margem">página não encontrada</div>} />
           </Routes>
-        {/* </PageWrapper> */}
+        </PageWrapper>
         <Footer/>
       </div>
     </DevinCourseContext.Provider>
