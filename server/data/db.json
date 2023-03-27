@@ -1,89 +1,97 @@
 {
   "users": [
     {
-      "login":"Silvana",
+      "login": "Silvana",
       "senha": "123",
       "isAdmin": true
     },
     {
-      "login":"sapato",
+      "login": "sapato",
       "senha": "123",
       "isAdmin": false
     }
   ],
   "courses": [
-        {
-            "id": 1,
-            "imageUrl": "/src/assets/reactjs.png",
-            "name": "React Js",
-            "category": "front-end",
-            "description": "Curso sobre React Js",
-            "duration": 6
-          },
-          {
-            "id": 635,
-            "imageUrl": "/src/assets/reactjs.png",
-            "name": "React Js",
-            "category": "front-end",
-            "description": "Curso sobre React Js",
-            "duration": 6
-          },
-          {
-            "id": 873,
-            "imageUrl": "/src/assets/reactts.png",
-            "name": "React com TS",
-            "category": "front-end",
-            "description": "Curso sobre React com TS",
-            "duration": 6
-          },
-          {
-            "id": 935,
-            "imageUrl": "/src/assets/reactrouter.png",
-            "name": "React Router",
-            "category": "front-end",
-            "description": "Curso sobre React Router",
-            "duration": 6
-          },
-          {
-            "id": 333,
-            "imageUrl": "/src/assets/contextapi.png",
-            "name": "Context API",
-            "category": "front-end",
-            "description": "Curso sobre Context API",
-            "duration": 6
-          },
-          {
-            "id": 844,
-            "imageUrl": "/src/assets/reactjs.png",
-            "name": "React Js",
-            "category": "front-end",
-            "description": "Curso sobre React Js",
-            "duration": 6
-          },
-          {
-            "id": 287,
-            "imageUrl": "/src/assets/reactts.png",
-            "name": "React com TS",
-            "category": "front-end",
-            "description": "Curso sobre React com TS",
-            "duration": 6
-          },
-          {
-            "id": 118,
-            "imageUrl": "/src/assets/reactrouter.png",
-            "name": "React Router",
-            "category": "front-end",
-            "description": "Curso sobre React Router",
-            "duration": 6
-          },
-          {
-            "id": 589,
-            "imageUrl": "/src/assets/contextapi.png",
-            "name": "Context API",
-            "category": "front-end",
-            "description": "Curso sobre Context API",
-            "duration": 6
-          }
-    ]
-   }
-   
+    {
+      "id": 1,
+      "imageUrl": "/src/assets/reactjs.png",
+      "name": "React Js",
+      "category": "front-end",
+      "description": "Curso sobre React Js",
+      "duration": 6
+    },
+    {
+      "id": 635,
+      "imageUrl": "/src/assets/reactjs.png",
+      "name": "React Js",
+      "category": "front-end",
+      "description": "Curso sobre React Js",
+      "duration": 6
+    },
+    {
+      "id": 873,
+      "imageUrl": "/src/assets/reactts.png",
+      "name": "React com TS",
+      "category": "front-end",
+      "description": "Curso sobre React com TS",
+      "duration": 6
+    },
+    {
+      "id": 935,
+      "imageUrl": "/src/assets/reactrouter.png",
+      "name": "React Router",
+      "category": "front-end",
+      "description": "Curso sobre React Router",
+      "duration": 6
+    },
+    {
+      "id": 333,
+      "imageUrl": "/src/assets/contextapi.png",
+      "name": "Context API",
+      "category": "front-end",
+      "description": "Curso sobre Context API",
+      "duration": 6
+    },
+    {
+      "id": 844,
+      "imageUrl": "/src/assets/reactjs.png",
+      "name": "React Js",
+      "category": "front-end",
+      "description": "Curso sobre React Js",
+      "duration": 6
+    },
+    {
+      "id": 287,
+      "imageUrl": "/src/assets/reactts.png",
+      "name": "React com TS",
+      "category": "front-end",
+      "description": "Curso sobre React com TS",
+      "duration": 6
+    },
+    {
+      "id": 118,
+      "imageUrl": "/src/assets/reactrouter.png",
+      "name": "React Router",
+      "category": "front-end",
+      "description": "Curso sobre React Router",
+      "duration": 6
+    },
+    {
+      "id": 589,
+      "imageUrl": "/src/assets/contextapi.png",
+      "name": "Context API",
+      "category": "front-end",
+      "description": "Curso sobre Context API",
+      "duration": 6
+    },
+    {
+      "targetMarket": "todos",
+      "duration": 1,
+      "description": "como se manter positivo",
+      "category": "fácil",
+      "imageUrl": "https://portal.unila.edu.br/secom/manual-portal/arquivos/icone-like.png/@@images/932f399f-5d05-4c54-a5df-116de0c62c4c.png",
+      "name": "Positivo",
+      "id": 936
+    }
+  ]
+}

@@ -8,6 +8,7 @@ import PageWrapper from "./components/pageWrapper/pageWrapper";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import './index.css'
+import CourseRegister from "./pages/CourseRegister/CourseRegister";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Routes>
             <Route path="/home" element={<HomePage/>} />
             <Route path="/login" element={<Login/>} />
+            <Route path="/register" element={<CourseRegister/>} />
             <Route path="/course/:id" element={<CourseDetailsPage/>} />
             <Route path="*" element={<div id="margem">página não encontrada</div>} />
           </Routes>
